@@ -1,0 +1,54 @@
+* {
+
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+
+    background-color: blue;
+    display:flex;
+    flex-wrap: wrap;
+    width:160px;
+    height: 160px;
+
+}
+
+.block {
+
+    background:black;
+    width:10px;
+    height: 10px;
+
+}
+
+// // .block:hover {
+
+// //     //transition-delay: 100s;
+// //     background:green;
+
+// }
+
+.block.hovered {
+
+    background:red;
+
+}
+
+.block.active {
+
+    background:red;
+
+}
+
