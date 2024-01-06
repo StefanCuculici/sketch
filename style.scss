@@ -17,7 +17,6 @@ main {
 
 .container {
 
-    background-color: blue;
     display:flex;
     flex-wrap: wrap;
     width:160px;
@@ -28,6 +27,8 @@ main {
 .block {
 
     background:black;
+    margin:0;
+    padding:0;
     width:10px;
     height: 10px;
 
@@ -51,4 +52,5 @@ main {
     background:red;
 
 }
+
 
